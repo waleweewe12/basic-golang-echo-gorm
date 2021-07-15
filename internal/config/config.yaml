@@ -1,0 +1,14 @@
+postgres:
+  host: "ec2-174-129-229-106.compute-1.amazonaws.com"
+  database: "dc57r1adaeki2i"
+  user: "lrnzlzxcselhpu"
+  port: "5432"
+  password: "1ec0e479a4dcc3a0a63dfbd34cdd6b8508c42d507f9a9171ebf5993b8a28bbd7"
+  uri: "postgres://lrnzlzxcselhpu:1ec0e479a4dcc3a0a63dfbd34cdd6b8508c42d507f9a9171ebf5993b8a28bbd7@ec2-174-129-229-106.compute-1.amazonaws.com:5432/dc57r1adaeki2i"
+
+
+http_config:
+  max_idle_connections: 100
+  max_connections_per_host: 100
+  max_idle_connections_per_host: 100
+  time_out: 30
